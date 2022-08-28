@@ -1,5 +1,5 @@
-
 import json
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -32,16 +32,10 @@ def get_content_yandex(html):
     return news
 
 def save_csv(items, flename):
-    #with open(flename, 'w', newline='') as file:
     items = json.dumps(items)
     items = json.loads(str(items))
     with open(flename, 'w', newline='') as file:
         json.dump(items, file, indent=4, ensure_ascii=False)
-        
-       #writer = csv.writer(file, delimiter=';')
-        #writer.writerow(['название', 'ссылка', 'описание', 'тэг'])
-        #for i in items:
-        #    writer.writerow( [i['title'], i['link'], i['description'], i['tag']] )
 
 def parser():
     html = get_html(URL)

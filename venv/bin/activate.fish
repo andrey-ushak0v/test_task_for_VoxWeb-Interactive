@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/mac/Dev/Test_popso.ru/venv"
+set -gx VIRTUAL_ENV "/Users/mac/Dev/test_task_for_VoxWeb-Interactive/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

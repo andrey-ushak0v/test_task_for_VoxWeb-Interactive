@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/mac/Dev/Test_popso.ru/venv"
+VIRTUAL_ENV="/Users/mac/Dev/test_task_for_VoxWeb-Interactive/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
